@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main() {
+    float temp;
+
+    printf("Enter surrounding temperature (°C): ");
+    scanf("%f", &temp);
+
+    if (temp > 30) {
+        printf("Input = 1 -> Temperature = %.2f°C -> AC ON\n", temp);
+    } else {
+        printf("Input = 0 -> Temperature = %.2f°C -> AC OFF\n", temp);
+    }
+
+    return 0;
+}
